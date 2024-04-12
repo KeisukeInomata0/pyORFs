@@ -1,4 +1,4 @@
-# Notebook for the numerical calculation of overlap reduction functions
+# Notebook for overlap reduction functions
 
 A Jupyter Notebook associated with arXiv:240X.XXXXX by Keisuke Inomata, Marc Kamionkowski, Stephen Taylor, and Celia Toral.
 This numerically calculates the overlap reduction functions (ORFs) for the redshift modification in pulsar timing array (PTA) and the deflections in astrometry.
