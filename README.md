@@ -4,7 +4,7 @@ This code calculates the overlap reduction function (ORF) for the redshift modif
 
 ``functions.py'' is the module for the functions.
 
-``orf_calculation_auto_pta.ipynb'' is for the ORFs of auto-correlation of PTA redshifts. 
+[orf_calculation_auto_pta.ipynb](orf_numerical_calculation/orf_calculation_auto_pta.ipynb) is for the ORFs of auto-correlation of PTA redshifts. 
 
 ``orf_calculation_auto_astrometry.ipynb'' is for the ORFs of auto-correlation of astrometry deflections. 
 
