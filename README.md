@@ -11,7 +11,7 @@ This code calculates the overlap reduction function (ORF) for the redshift modif
 ``orf_calculation_cross.ipynb'' is for the ORFs of cross-correlation between PTA redshift and astrometry deflection. 
 
 ## Author
-- [Keisuke Inomata](mailto:kinomat1@jhu.edu)
+- [Keisuke Inomata](mailto:kinomat1@jhu.edu) (Johns Hopkins University)
 
 ## Dependencies
 - Python
