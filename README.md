@@ -15,7 +15,5 @@ This code calculates the overlap reduction function (ORF) for the redshift modif
 
 ## Dependencies
 - Python
-- numpy
-- math
-- scipy
-- sympy
+- numpy, math, scipy, sympy
+
