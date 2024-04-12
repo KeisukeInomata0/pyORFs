@@ -1,7 +1,7 @@
-# Python code for overlap reduction functions
+# Notebook for the numerical calculation of overlap reduction functions
 
-This is a Python code to numerically calculate the overlap reduction functions (ORFs) for the redshift modification in pulsar timing array (PTA) and the deflections in astrometry.
-The formulas are given in arXiv:240X.XXXXX.
+A Jupyter Notebook associated with arXiv:240X.XXXXX by Keisuke Inomata, Marc Kamionkowski, Stephen Taylor, and Celia Toral.
+This numerically calculates the overlap reduction functions (ORFs) for the redshift modification in pulsar timing array (PTA) and the deflections in astrometry.
 
 - [orf_calculation_auto_pta.ipynb](orf_numerical_calculation/orf_calculation_auto_pta.ipynb) is for the ORFs of auto-correlation of PTA redshifts. 
 - [orf_calculation_auto_astrometry.ipynb](orf_numerical_calculation/orf_calculation_auto_astrometry.ipynb) is for the ORFs of auto-correlation of astrometry deflections. 
