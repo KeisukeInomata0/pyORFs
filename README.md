@@ -7,7 +7,7 @@ These numerically calculate the overlap reduction functions (ORFs) for the redsh
 - [auto_astrometry.ipynb](auto_astrometry.ipynb): auto-correlation of astrometry deflections. 
 - [cross.ipynb](cross.ipynb): cross-correlation between PTA redshifts and astrometry deflections. 
 
-The codes calculate the ORF $\Gamma^{p,X,ST}\_{LM,\alpha\beta}(\hat n_a, \hat n_b)$ in the following coordinates:  
+The codes calculate the ORF $\Gamma^{p,X,ST}\_{LM,\alpha\beta}(\hat n_a, \hat n_b)$ (see the paper for its definition) in the following coordinates:  
 
 $$
   \hat n_a = (0,0,1),\  \hat n_b = (\sin \theta, 0, \cos \theta).
