@@ -13,8 +13,7 @@ $$
   \hat n_a = (0,0,1),\  \hat n_b = (\sin \theta, 0, \cos \theta).
 $$  
 
-In this coordinate choice, $\Gamma^{p,X,ST}\_{LM,\alpha\beta}$ only depends on $\theta$.
-$\Gamma^{p,X,ST}\_{LM,\alpha\beta}(\theta)$ is calculated by the following functions:  
+In this coordinate choice, $\Gamma^{p,X,ST}\_{LM,\alpha\beta}$ only depends on $\theta$ and is calculated by the following functions:  
 **Gamma_X_ST($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = t$,**  
 **Gamma_X_ST_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = v$**,  
 where $\ell_\text{max}$ is the maximum value of $\ell$ that we take into account (see the paper) and $\alpha$ and/or $\beta$ may not be there if $S$ and/or $T$ are $z$. $\alpha,\beta = 0$ corresponds to $\theta$ and $\alpha,\beta = 1$ to $\phi$.  
