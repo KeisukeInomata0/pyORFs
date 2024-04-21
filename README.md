@@ -5,7 +5,8 @@ These numerically calculate the overlap reduction functions (ORFs) for the redsh
 
 - [auto_pta.ipynb](auto_pta.ipynb): auto-correlation of PTA redshifts, $\Gamma^{p,X,zz}\_{LM}$. 
 - [auto_astrometry.ipynb](auto_astrometry.ipynb): auto-correlation of astrometry deflections, $\Gamma^{p,X,ST}\_{LM,\alpha\beta}$. 
-- [cross.ipynb](cross.ipynb): cross-correlation between PTA redshifts and astrometry deflections, $\Gamma^{p,X,Sz}\_{LM,\alpha}$ or $\Gamma^{p,X,zS}\_{LM,\alpha}$. 
+- [cross.ipynb](cross.ipynb): cross-correlation between PTA redshifts and astrometry deflections, $\Gamma^{p,X,Sz}\_{LM,\alpha}$ or $\Gamma^{p,X,zS}\_{LM,\alpha}$,  
+where $S,T \in \{E,B\}$ for the astrometry modes.
 
 The codes calculate the ORF $\Gamma^{p,X}\_{LM}(\hat n_a, \hat n_b)$ (see the paper for its definition) in the following coordinates:  
 
