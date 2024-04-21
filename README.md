@@ -3,9 +3,9 @@
 Jupyter Notebooks associated with arXiv:240X.XXXXX by Keisuke Inomata, Marc Kamionkowski, Celia Toral, and Stephen Taylor.
 These numerically calculate the overlap reduction functions (ORFs) for the redshift modification in pulsar timing array (PTA) and the deflections in astrometry.
 
-- [auto_pta.ipynb](auto_pta.ipynb): auto-correlation of PTA redshifts, $\Gamma^{p,X,ST}\_{LM}$. 
+- [auto_pta.ipynb](auto_pta.ipynb): auto-correlation of PTA redshifts, $\Gamma^{p,X,zz}\_{LM}$. 
 - [auto_astrometry.ipynb](auto_astrometry.ipynb): auto-correlation of astrometry deflections, $\Gamma^{p,X,ST}\_{LM,\alpha\beta}$. 
-- [cross.ipynb](cross.ipynb): cross-correlation between PTA redshifts and astrometry deflections, $\Gamma^{p,X,ST}\_{LM,\alpha}$. 
+- [cross.ipynb](cross.ipynb): cross-correlation between PTA redshifts and astrometry deflections, $\Gamma^{p,X,Sz}\_{LM,\alpha}$ or $\Gamma^{p,X,zS}\_{LM,\alpha}$. 
 
 The codes calculate the ORF $\Gamma^{p,X,ST}\_{LM}(\hat n_a, \hat n_b)$ (see the paper for its definition) in the following coordinates:  
 
