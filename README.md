@@ -10,7 +10,7 @@ These numerically calculate the overlap reduction functions (ORFs) for the redsh
 The ORF $\Gamma^{p,X,ST}\_{LM,\alpha\beta}(\theta)$ is calculated by  
 Gamma_X_ST(L, M, theta\[rad\], l_max, alpha, beta) for p = t  
 Gamma_X_ST_v(L, M, theta \[rad\], l_max, alpha, beta) for p = v,  
-where $\alpha$ and/or $\beta$ may not be there if $S$ and/or $T$ are $z$. $\alpha,\beta = 0$ corresponds to $\theta$ and $\alpha,\beta = 1$ to $\phi$.  
+where l_max is the maximum value of $\ell$ that we take into account (see the paper) and $\alpha$ and/or $\beta$ may not be there if $S$ and/or $T$ are $z$. $\alpha,\beta = 0$ corresponds to $\theta$ and $\alpha,\beta = 1$ to $\phi$.  
 For example, Gamma_I_EB_v(L, M, $\theta$\[rad\], l_max, 0, 1) $= \Gamma^{v,I,EB}\_{LM,\theta \phi}(\theta)$. 
 
 ## Author
