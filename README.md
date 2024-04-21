@@ -19,7 +19,7 @@ Specifically, the following Python functions calculate $\Gamma^{p,X,YZ}\_{LM,\al
   
 **Gamma_X_VW($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = t$,**  
 **Gamma_X_VW_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = v$**,  
-　　
+  
 where $V,W \in \\{z,E,B\\}$ and $\alpha$ and/or $\beta$ may not be there if $V$ and/or $W$ is $z$.
 $\ell_\text{max}$ is the maximum value of $\ell$ that we take into account (see the paper). $\alpha,\beta = 0$ corresponds to $\theta$ and $\alpha,\beta = 1$ to $\phi$. For example, $\Gamma^{v,I,EB}\_{LM,\theta \phi}(\theta)$ is calculated with Gamma_I_EB_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, 0, 1$) except for overall imaginary numbers.
 
