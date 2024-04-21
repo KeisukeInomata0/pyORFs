@@ -11,6 +11,7 @@ The ORF $\Gamma^{p,X,ST}_{\alpha \beta}$ can be calculated by
 Gamma_X_ST(L, M, theta\[rad\], l_max, alpha, beta) for $p = t$  
 Gamma_X_ST_v(L, M, theta\[rad\], l_max, alpha, beta) for $p = v$,  
 where $\alpha$ and/or $\beta$ may not be there if $S$ and/or $T$ are $z$. 
+$\alpha,\beta = 0$ corresponds to $\theta$ and $\alpha,\beta = 1$ to $\phi$.
 
 ## Author
 - [Keisuke Inomata](mailto:kinomat1@jhu.edu) (Johns Hopkins University)
