@@ -8,9 +8,11 @@ These numerically calculate the overlap reduction functions (ORFs) for the redsh
 - [cross.ipynb](cross.ipynb): cross-correlation between PTA redshifts and astrometry deflections. 
 
 The codes calculate the ORF $\Gamma^{p,X,ST}\_{LM,\alpha\beta}(\hat n_a, \hat n_b)$ in the following coordinates:  
+
 $$
   \hat n_a = (0,0,1),\  \hat n_b = (\sin \theta, 0, \cos \theta).
 $$  
+
 In this coordinate choice, $\Gamma^{p,X,ST}\_{LM,\alpha\beta}$ only depends on $\theta$, which are calculated by the following functions:  
 **Gamma_X_ST($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = t$,**  
 **Gamma_X_ST_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = v$**,  
