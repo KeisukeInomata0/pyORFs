@@ -7,7 +7,7 @@ These numerically calculate the overlap reduction functions (ORFs) for the redsh
 - [auto_astrometry.ipynb](auto_astrometry.ipynb): auto-correlation of astrometry deflections. 
 - [cross.ipynb](cross.ipynb): cross-correlation between PTA redshifts and astrometry deflections. 
 
-The ORF $\Gamma^{p,X,ST(\theta)$ can be calculated by  
+The ORF $\Gamma^{p,X,ST}(\theta)$ can be calculated by  
 Gamma_X_ST(L, M, theta\[rad\], l_max, alpha, beta) for $p = t$  
 Gamma_X_ST_v(L, M, theta\[rad\], l_max, alpha, beta) for $p = v$,  
 where $\alpha$ and/or $\beta$ may not be there if $S$ and/or $T$ are $z$.  
