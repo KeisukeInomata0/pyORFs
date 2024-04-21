@@ -16,7 +16,7 @@ $$
 Specifically, the following Python functions calculate $\Gamma^{p,X,ST}\_{LM,\alpha\beta}(\theta)$ (except for overall imaginary numbers):  
 **Gamma_X_ST($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = t$,**  
 **Gamma_X_ST_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = v$**,  
-where $\alpha$ and/or $\beta$ may not be there if $S$ and/or $T$ are $z$ and $\ell_\text{max}$ is the maximum value of $\ell$ that we take into account (see the paper). $\alpha,\beta = 0$ corresponds to $\theta$ and $\alpha,\beta = 1$ to $\phi$. For example, $\Gamma^{v,I,EB}\_{LM,\theta \phi}(\theta)$ is calculated with Gamma_I_EB_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, 0, 1$) except for overall imaginary numbers.
+where $\alpha$ and/or $\beta$ may not be there if $S$ and/or $T$ is $z$ and $\ell_\text{max}$ is the maximum value of $\ell$ that we take into account (see the paper). $\alpha,\beta = 0$ corresponds to $\theta$ and $\alpha,\beta = 1$ to $\phi$. For example, $\Gamma^{v,I,EB}\_{LM,\theta \phi}(\theta)$ is calculated with Gamma_I_EB_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, 0, 1$) except for overall imaginary numbers.
 
 
 The Python functions neglect imaginary numbers. When we plot the results, we recover the imaginary numbers that we neglect in the functions, which change the expression of the y-axis of the figures.  
