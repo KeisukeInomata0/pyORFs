@@ -15,7 +15,7 @@ $$
   \hat n_a = (0,0,1),\  \hat n_b = (\sin \theta, 0, \cos \theta).
 $$  
 
-Specifically, the following Python functions calculate the ORFs except for overall imaginary numbers:  
+Specifically, the following Python functions calculate the ORFs with overall imaginary numbers neglected:  
   
 **Gamma_X_VW($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = t$,**  
 **Gamma_X_VW_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = v$**,  
