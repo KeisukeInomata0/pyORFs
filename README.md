@@ -24,7 +24,7 @@ where $V,W \in \\{z,E,B\\}$ and $\alpha$ and/or $\beta$ may not be there if $V$ 
 $\ell_\text{max}$ is the maximum value of $\ell$ that we take into account (see the paper). $\alpha,\beta = 0$ corresponds to $\theta$ and $\alpha,\beta = 1$ to $\phi$. For example, $\Gamma^{v,I,EB}\_{LM,\theta \phi}(\theta)$ can be calculated with Gamma_I_EB_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, 0, 1$) except for overall imaginary numbers.
 
 
-The Python functions neglect imaginary numbers. When we plot the results, we recover the imaginary numbers that we neglect in the functions, which change the overall factor for the y-axis of some figures.  
+The Python functions neglect imaginary numbers. When we plot the results, we recover the imaginary numbers that we neglect in the functions, which change the overall factor of the y-axis in some figures.  
 
 
 
