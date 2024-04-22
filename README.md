@@ -9,7 +9,13 @@ These numerically calculate the overlap reduction functions (ORFs) for the redsh
 
 where $S,T \in \\{E,B\\}$ for the astrometry modes.
 
-The following Python functions calculate $\Gamma^{p,X,VW}\_{LM,\alpha\beta}(\theta)$ (see the paper for the definition) except for overall imaginary numbers:  
+The codes calculate the ORF $\Gamma^{p,X}\_{LM}(\hat n_a, \hat n_b)$ (see the paper for its definition) in the following coordinates:  
+
+$$
+  \hat n_a = (0,0,1),\  \hat n_b = (\sin \theta, 0, \cos \theta).
+$$  
+
+Specifically, the following Python functions calculate the ORFs except for overall imaginary numbers:  
   
 **Gamma_X_VW($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = t$,**  
 **Gamma_X_VW_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = v$**,  
