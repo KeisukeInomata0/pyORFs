@@ -9,7 +9,7 @@ These numerically calculate the overlap reduction functions (ORFs) for the redsh
 
 where $S,T \in \\{E,B\\}$ for the astrometry modes.
 
-The codes calculate the ORF $\Gamma^{p,X}\_{LM}(\hat n_a, \hat n_b)$ (see the paper for its definition) in the following coordinates:  
+The notebooks calculate the ORF $\Gamma^{p,X}\_{LM}(\hat n_a, \hat n_b)$ (see the paper for its definition) in the following coordinates:  
 
 $$
   \hat n_a = (0,0,1),\  \hat n_b = (\sin \theta, 0, \cos \theta).
