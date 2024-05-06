@@ -28,7 +28,8 @@ The Python functions in these notebooks neglect imaginary numbers. When we plot 
 
 
 For check, we have implemented the exact analytic results for the $I$-mode GW anisotropies, obtained in arXiv:1406.4664 (Gair, Romano, Taylor, Mingarelli) and arXiv:1506.08668 (Gair, Romano, Taylor) with:
-**Gamma_I_zz_exact($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = t$,**
+
+**Gamma_I_zz_exact($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = t$,**  
 **Gamma_I_zz_v_exact($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = v$**.
 
 
