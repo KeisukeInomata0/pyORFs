@@ -27,7 +27,7 @@ $\ell_\text{max}$ is the maximum value of $\ell$ that we consider (see the paper
 The Python functions in these notebooks neglect imaginary numbers. When we plot the results, we recover the imaginary numbers that we neglect in the functions, which change the overall factor of the y-axis in some figures.
 
 
-For check, we have implemented the exact analytic results for the $I$-mode GW anisotropies, obtained in arXiv:1406.4664 (Gair, Romano, Taylor, Mingarelli) and arXiv:1506.08668 (Gair, Romano, Taylor) with:
+For check, we have implemented the exact analytic results for the $I$-mode GW anisotropies, obtained in arXiv:1406.4664 (Gair, Romano, Taylor, Mingarelli, for tensor GWs) and arXiv:1506.08668 (Gair, Romano, Taylor, for vector GWs) with:
 
 **Gamma_I_zz_exact($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = t$,**  
 **Gamma_I_zz_v_exact($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = v$**.
