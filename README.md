@@ -21,10 +21,15 @@ Specifically, the following Python functions calculate the ORFs with overall ima
 **Gamma_X_VW_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = v$**,  
   
 where $V,W \in \\{z,E,B\\}$ and $\alpha$ and/or $\beta$ may not be there if $V$ and/or $W$ is $z$.
-$\ell_\text{max}$ is the maximum value of $\ell$ that we take into account (see the paper). $\alpha,\beta = 0$ corresponds to $\theta$ and $\alpha,\beta = 1$ to $\phi$. For example, $\Gamma^{v,I,EB}\_{LM,\theta \phi}(\theta)$ can be calculated with Gamma_I_EB_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, 0, 1$) except for overall imaginary numbers.
+$\ell_\text{max}$ is the maximum value of $\ell$ that we consider (see the paper). $\alpha,\beta = 0$ corresponds to $\theta$ and $\alpha,\beta = 1$ to $\phi$. For example, $\Gamma^{v,I,EB}\_{LM,\theta \phi}(\theta)$ can be calculated with Gamma_I_EB_v($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, 0, 1$) except for overall imaginary numbers.
 
 
-The Python functions neglect imaginary numbers. When we plot the results, we recover the imaginary numbers that we neglect in the functions, which change the overall factor of the y-axis in some figures.  
+The Python functions in these notebooks neglect imaginary numbers. When we plot the results, we recover the imaginary numbers that we neglect in the functions, which change the overall factor of the y-axis in some figures.
+
+
+For check, we have implemented the exact analytic results for the $I$-mode GW anisotropies, obtained in arXiv:1406.4664 (Gair, Romano, Taylor, Mingarelli) and arXiv:1506.08668 (Gair, Romano, Taylor) with:
+**Gamma_I_zz_exact($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = t$,**
+**Gamma_I_zz_v_exact($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = v$**.
 
 
 
