@@ -4,7 +4,7 @@
 import numpy as np
 import math
 
-####### functions for cross-checks: exact ORFs for PTA redshift response due to tensor and vector GWs (see Appendix E of arXiv:1406.4664 for tensor and Appendix J of arXiv:1506.08668 for vector GWs)
+####### functions for cross-checks: exact ORFs for PTA redshift response due to tensor and vector GWs (see Appendix E of arXiv:1406.4664 (Gair, Romano, Taylor, Mingarelli) for tensor GWs and Appendix J of arXiv:1506.08668  (Gair, Romano, Taylor) for vector GWs)
 
 def facto(n): # shorthand function for factorial
     return math.factorial(n)
