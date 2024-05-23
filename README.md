@@ -43,6 +43,7 @@ We also implement the exact analytic results for the redshift response due to th
 - numpy, math, scipy, sympy
 
 ## References
+- Inomata et al. (2024, ...): Overlap reduction functions for pulsar timing arrays and astrometry.
 - Gair et al. (2014, [arXiv](https://arxiv.org/abs/1406.4664)): Mapping gravitational-wave backgrounds using methods from CMB analysis: Application to pulsar timing arrays.
 - Gair et al. (2015, [arXiv](https://arxiv.org/abs/1506.08668)): Mapping gravitational-wave backgrounds in modified theories of gravity using pulsar timing arrays.
 
