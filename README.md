@@ -3,9 +3,9 @@
 pyORFs is the code for arXiv:240X.XXXXX by Keisuke Inomata, Marc Kamionkowski, Celia Toral, and Stephen Taylor.
 In pyORFs, we numerically calculate the overlap reduction functions (ORFs) for the redshift modification in pulsar timing arrays (PTAs) and the deflections in astrometry:
 
-- [auto_pta.ipynb](auto_pta.ipynb): auto-correlation of PTA redshifts, $\Gamma^{p,X,zz}\_{LM}$,
-- [auto_astrometry.ipynb](auto_astrometry.ipynb): auto-correlation of astrometry deflections, $\Gamma^{p,X,ST}\_{LM,\alpha\beta}$,
-- [cross.ipynb](cross.ipynb): cross-correlation between PTA redshifts and astrometry deflections, $\Gamma^{p,X,Sz}\_{LM,\alpha}$ or $\Gamma^{p,X,zS}\_{LM,\alpha}$,  
+- [auto_pta.ipynb](auto_pta.ipynb): auto-correlation of the PTA redshifts, $\Gamma^{p,X,zz}\_{LM}$,
+- [auto_astrometry.ipynb](auto_astrometry.ipynb): auto-correlation of the astrometry deflections, $\Gamma^{p,X,ST}\_{LM,\alpha\beta}$,
+- [cross.ipynb](cross.ipynb): cross-correlation between the PTA redshift and the astrometry deflection, $\Gamma^{p,X,Sz}\_{LM,\alpha}$ or $\Gamma^{p,X,zS}\_{LM,\alpha}$,  
 
 where $S,T \in \\{E,B\\}$ for the astrometry modes.
 
