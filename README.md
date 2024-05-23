@@ -27,7 +27,7 @@ $\ell_\text{max}$ is the maximum value of $\ell$ that we consider (see the paper
 When we plot the results, we recover the imaginary numbers that we neglect in the functions, which change the overall factor of the y-axis in some figures.
 
 
-We also implement the exact analytic results for the redshift response due to the $I$-mode GW anisotropies, obtained in arXiv:1406.4664 (Gair, Romano, Taylor, Mingarelli, for spin-2 GWs) and arXiv:1506.08668 (Gair, Romano, Taylor, for spin-1 GWs):
+We also implement the exact analytic results for the redshift response due to the $I$-mode GW anisotropies, obtained in arXiv:1406.4664 (Gair, Romano, Taylor, and Mingarelli: for spin-2 GWs) and arXiv:1506.08668 (Gair, Romano, and Taylor: for spin-1 GWs):
 
 **Gamma_I_zz_exact($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = t$,**  
 **Gamma_I_zz_v_exact($L, M, \theta \\,\text{\[rad\]}, \ell_\text{max}, \alpha, \beta$) for $p = v$**.
