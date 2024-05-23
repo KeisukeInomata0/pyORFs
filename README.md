@@ -1,6 +1,6 @@
 # pyORFs
 
-pyORFs is the code for arXiv:240X.XXXXX by Keisuke Inomata, Marc Kamionkowski, Celia Toral, and Stephen Taylor.
+pyORFs is the code for arXiv:240X.XXXXX by Keisuke Inomata, Marc Kamionkowski, Celia M. Toral, and Stephen R. Taylor.
 We numerically calculate the overlap reduction functions (ORFs) for the redshift modification in pulsar timing arrays (PTAs) and the deflections in astrometry:
 
 - [auto_pta.ipynb](auto_pta.ipynb): auto-correlation of the PTA redshifts, $\Gamma^{p,X,zz}\_{LM}$,
