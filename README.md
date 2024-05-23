@@ -9,7 +9,7 @@ In these notebooks, we numerically calculate the overlap reduction functions (OR
 
 where $S,T \in \\{E,B\\}$ for the astrometry modes.
 
-In these notebooks, we calculate the ORF $\Gamma^{p,X}\_{LM}(\hat n_a, \hat n_b)$ (see the paper for its definition) in the following coordinates:  
+In these notebooks, we calculate the ORF $\Gamma^{p,X,ST}\_{LM}(\hat n_a, \hat n_b)$ (see the paper for its definition) in the following coordinates:  
 
 $$
   \hat n_a = (0,0,1),\  \hat n_b = (\sin \theta, 0, \cos \theta).
