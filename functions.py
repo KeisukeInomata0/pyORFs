@@ -2,7 +2,6 @@
 
 # Import Python packages
 import scipy.special as sc
-from sympy.physics.quantum.cg import CG
 from sympy.physics.wigner import wigner_3j, clebsch_gordan
 import numpy as np
 import math
@@ -48,8 +47,6 @@ def YY(l,ld,L,M,theta): # {Y_l(\hat n_a) x Y_ld(\hat n_b)}_{LM} with theta = arc
         if md >= -ld and md <= ld: # restric the sum ranges 
             yy = yy+ clebsch_gordan(l,ld,L,m,md,M)*Ysph(l,m,0)*Ysph(ld,md,theta)  
             #NOTE: clebsch_gordan(l1,l2,L,m1,m2,M) = <l1,m1,l2,m2|L,M>, https://docs.sympy.org/latest/modules/physics/wigner.html
-    #            yy = yy+ CG(l,m,ld,md,L,M).doit()*Ysph(l,m,0)*Ysph(ld,md,theta)
-            #NOTE: CG(l1,m1,l2,m2,L,M) = <l1,m1,l2,m2|L,M>, https://docs.sympy.org/latest/modules/physics/quantum/cg.html#sympy.physics.quantum.cg.cg_simp
     return yy
 
 def YS_Y(l,ld,L,M,theta,S,alpha): # {Y^S_{l,alpha} x Y_ld} in S={E,B} and alpha,beta={theta,phi}
@@ -58,7 +55,6 @@ def YS_Y(l,ld,L,M,theta,S,alpha): # {Y^S_{l,alpha} x Y_ld} in S={E,B} and alpha,
         md = M-m
         if md >= -ld and md <= ld:
             yy = yy+ clebsch_gordan(l,ld,L,m,md,M)*Ysph_v(l,m,1e-5,S,alpha)*Ysph(ld,md,theta)
-#            yy = yy+ CG(l,m,ld,md,L,M).doit()*Ysph_v(l,m,0.001,S,alpha)*Ysph(ld,md,theta)
             # NOTE: 1e-5 is substituted to avoid the coordinate singularity 
     return yy
 
@@ -68,7 +64,6 @@ def Y_YS(l,ld,L,M,theta,S,alpha): # Y_l x Y^S_{ld,alpha} in S={E,B} and alpha,be
         md = M-m
         if md >= -ld and md <= ld:
             yy = yy+ clebsch_gordan(l,ld,L,m,md,M)*Ysph(l,m,0)*Ysph_v(ld,md,theta,S,alpha)            
-#            yy = yy+ CG(l,m,ld,md,L,M).doit()*Ysph(l,m,0)*Ysph_v(ld,md,theta,S,alpha)
     return yy
 
 def YS_YT(l,ld,L,M,theta,S,T,alpha,beta): # Y^S_{l,alpha} x Y^T_{ld,beta} in S,T={E,B} and alpha,beta={theta,phi}
@@ -77,7 +72,6 @@ def YS_YT(l,ld,L,M,theta,S,T,alpha,beta): # Y^S_{l,alpha} x Y^T_{ld,beta} in S,T
         md = M-m
         if md >= -ld and md <= ld: 
             yy = yy+ clebsch_gordan(l,ld,L,m,md,M)*Ysph_v(l,m,1e-5,S,alpha)*Ysph_v(ld,md,theta,T,beta) 
-#            yy = yy+ CG(l,m,ld,md,L,M).doit()*Ysph_v(l,m,0.001,S,alpha)*Ysph_v(ld,md,theta,T,beta) 
             # NOTE: 1e-5 is substituted to avoid the coordinate singularity 
     return yy
 
