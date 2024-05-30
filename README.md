@@ -1,6 +1,6 @@
 # pyORFs
 
-pyORFs is the code for arXiv:240X.XXXXX by Keisuke Inomata, Marc Kamionkowski, Celia Toral, and Stephen Taylor.
+pyORFs is the code for arXiv:240X.XXXXX by Keisuke Inomata, Marc Kamionkowski, Celia M. Toral, and Stephen R. Taylor.
 We numerically calculate the overlap reduction functions (ORFs) for the redshift modification in pulsar timing arrays (PTAs) and the deflections in astrometry:
 
 - [auto_pta.ipynb](auto_pta.ipynb): auto-correlation of the PTA redshifts, $\Gamma^{p,X,zz}\_{LM}$,
@@ -41,10 +41,5 @@ We also implement the exact analytic results for the redshift response due to th
 - Python
 - matplotlib
 - numpy, math, scipy, sympy
-
-## References
-- Gair et al. (2014, [arXiv](https://arxiv.org/abs/1406.4664)): Mapping gravitational-wave backgrounds using methods from CMB analysis: Application to pulsar timing arrays.
-- Gair et al. (2015, [arXiv](https://arxiv.org/abs/1506.08668)): Mapping gravitational-wave backgrounds in modified theories of gravity using pulsar timing arrays.
-
 
 
