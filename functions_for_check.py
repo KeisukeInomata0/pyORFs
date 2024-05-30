@@ -1,5 +1,5 @@
 ## module for functions 
-
+ 
 # Import Python packages
 import numpy as np
 import math
