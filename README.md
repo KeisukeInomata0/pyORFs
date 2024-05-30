@@ -9,7 +9,7 @@ We numerically calculate the overlap reduction functions (ORFs) for the redshift
 
 where $S,T \in \\{E,B\\}$ for the astrometry modes.
 
-We calculate the ORF $\Gamma^{p,X,ST}\_{LM}(\hat n_a, \hat n_b)$ (see the paper for its definition) in the following coordinates:  
+We calculate the ORF $\Gamma^{p,X,ST}\_{LM}(\hat n_a, \hat n_b)$ in the following coordinates:  
 
 $$
   \hat n_a = (0,0,1),\  \hat n_b = (\sin \theta, 0, \cos \theta).
